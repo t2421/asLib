@@ -21,8 +21,8 @@
 			var rad:Number = tr/180*Math.PI;
 			var cos:Number = Math.cos(rad);
 			var sin:Number = Math.sin(rad);
-			var posX:Number = distX * cos - distY * sin + ox;
-			var posY:Number = distX * sin + distY * cos + oy;
+			var posX:Number = distX * cos + distY * sin + ox;
+			var posY:Number = -distX * sin + distY * cos + oy;
 			var point:Point = new Point(posX, posY);
 			return point;
 		}
