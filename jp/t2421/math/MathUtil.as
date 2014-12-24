@@ -31,6 +31,13 @@
 			return outValue;
 		}
 		
+		public static function degToRad(deg:Number):Number{
+			return deg * Math.PI/180;
+		}
+		
+		public static function radToDeg(rad:Number):Number{
+			return rad*180/Math.PI;
+		}
 		
 		
 		
